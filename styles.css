@@ -1,0 +1,33 @@
+/* gallery layout */
+.gallery {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;    /* wrap to next row on small screens */
+  padding: 20px;
+}
+
+/* each image + caption pair */
+.card {
+  text-align: center; /* caption centers under image */
+  width: 220px;       /* sets a steady card width */
+}
+
+/* images */
+.card img {
+  display: block;     /* removes inline spacing under images */
+  width: 100%;        /* fill card width */
+  height: auto;
+  border-radius: 6px;
+}
+
+/* caption */
+.caption {
+  margin-top: 8px;
+  background: brown;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
